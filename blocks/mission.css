@@ -1,0 +1,58 @@
+.mission {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 30px 5%;
+  display: flex;
+  align-items: center;
+  column-gap: 5%;
+  row-gap: 20px;
+  font-family: Ubuntu, arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+.mission__text {
+  display: flex;
+  flex-direction: column;
+  justify-items: space-between;
+  row-gap: 30px;
+}
+
+.mission__heading {
+  width: fit-content;
+  margin: 0;
+  font-size: 42px;
+  font-weight: 700;
+  border-bottom: 5px solid #0882ff;
+}
+
+.mission__paragraph {
+  line-height: 1.5;
+}
+
+.mission__image {
+  max-width: 400px;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .mission {
+    flex-wrap: wrap;
+  }
+
+  .mission__image {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .mission {
+    font-size: 18px;
+  }
+
+  .mission__heading {
+    font-size: 32px;
+    border-bottom: 4px solid #0882ff;
+  }
+}

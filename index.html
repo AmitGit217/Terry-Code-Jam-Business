@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./pages/index.css" />
     <title>Document</title>
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="stylesheet" href="./images/favicon.ico" />
@@ -12,7 +11,20 @@
   <body class="page">
     <header class="header"></header>
     <main class="main">
-      <section class="mission"></section>
+      <section class="mission">
+        <div class="mission__text">
+          <h2 class="mission__heading">Our Mission:</h2>
+          <p class="mission__paragraph">
+            We rescue orphaned joeys and injured roos, care for them and send
+            them back to wild!
+          </p>
+        </div>
+        <img
+          src="./images/kangaroo.png"
+          alt="kangaroo logo of the charity"
+          class="mission__image"
+        />
+      </section>
       <section class="gallery">
         <h2 class="gallery__title">My Furry Friends:</h2>
         <ul class="gallery__roos">
@@ -92,7 +104,46 @@
         </div>
       </section>
       </section>
-      <section class="donate"></section>
+            <section class="donate">
+        <div class="donate__text">
+          <h2 class="donate__heading">Come Help Us Out!</h2>
+          <address class="donate__paragraph">
+            Call
+            <a href="tel:+61 123 123 123" class="donate__link">
+              +61 123 123 123
+            </a>
+            or donate on
+            <a
+              href="https://wild2free.org.au/donate/"
+              target="_blank"
+              class="donate__link"
+            >
+              our website
+            </a>
+            you can also visit our
+            <a
+              href="https://www.facebook.com/wild2free"
+              target="_blank"
+              class="donate__link"
+              >Facebook</a
+            >
+            and
+            <a
+              href="https://www.instagram.com/wildtofree/"
+              target="_blank"
+              class="donate__link"
+              >Instagram</a
+            >
+            social media pages or just stop by at 123 Fiord Road, NSW 2000 at
+            the end of the longest gravel road!
+          </address>
+        </div>
+        <img
+          src="./images/Terrybrokencar.png"
+          alt="terry opens the hood of the car and sees the smoke"
+          class="donate__image"
+        />
+      </section>
     </main>
     <footer class="footer"></footer>
     <script src="./scripts/index.js" type="module"></script>
