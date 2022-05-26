@@ -37,6 +37,7 @@
 .gallery__roos-image:hover {
   transform: scale(1.1);
   border: 5px double #0882ff;
+  animation: none;
 }
 @keyframes pulse {
   0% {
