@@ -1,6 +1,6 @@
 .gallery {
   max-width: 1180px;
-  margin-top: 50px;
+  margin: 50px auto;
 }
 
 .gallery__title {
@@ -20,6 +20,8 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 30px;
+  padding-left: 0;
+  flex-wrap: wrap;
 }
 
 .gallery__roos-image {
@@ -27,6 +29,25 @@
   width: 100%;
   border-radius: 50%;
   border: 5px solid #0882ff;
+  cursor: pointer;
+  transition: 0.3s;
+  animation: pulse 2s linear infinite forwards;
+}
+
+.gallery__roos-image:hover {
+  transform: scale(1.1);
+  border: 5px double #0882ff;
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 #0882ff;
+  }
+  50% {
+    box-shadow: 0 0 50px #0882ff;
+  }
+  100% {
+    box-shadow: 0 0 0 #0882ff;
+  }
 }
 
 .gallery__roos-name {
@@ -38,4 +59,9 @@
   font-size: 18px;
   line-height: 25px;
   color: #0882ff;
+}
+@media screen and (max-width: 375px) {
+  .gallery__title {
+    font-size: 75px;
+  }
 }

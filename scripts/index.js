@@ -1,20 +1,17 @@
 import { closePopup, openPopup } from "./utils.js";
 
 const roolist = Array.from(document.querySelectorAll(".gallery__roos-image"));
-const imagePopup = document.querySelector(".image");
 const imageCloseButton = document.querySelector(".image__close-button");
+const popup = document.querySelector(".image");
 
 roolist.forEach((item) => {
   item.addEventListener("click", function () {
-    const imagePopupImage = imagePopup.querySelector(".image__popup");
-
+    const imagePopupImage = popup.querySelector(".image__popup");
     imagePopupImage.src = item.src;
     imagePopupImage.alt = item.alt;
-
-    console.log(imagePopupImage);
-
-    openPopup(imagePopupImage);
+    openPopup(popup);
   });
 });
-
-imageCloseButton.addEventListener("click", closePopup(imagePopup));
+imageCloseButton.addEventListener("click", () => {
+  closePopup(popup);
+});
