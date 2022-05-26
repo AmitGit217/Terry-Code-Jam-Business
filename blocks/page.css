@@ -1,0 +1,21 @@
+.page {
+  position: relative;
+  max-width: 1280px;
+  margin: auto;
+  font-family: "Ubuntu", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  color: #000000;
+  background: #ffffff 100vw;
+  -webkit-background-size: 100vw;
+  -moz-background-size: 100vw;
+  -o-background-size: 100vw;
+  background-size: 100vw;
+  z-index: 1;
+}
+html {
+  scroll-behavior: smooth;
+}

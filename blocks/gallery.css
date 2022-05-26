@@ -1,0 +1,41 @@
+.gallery {
+  max-width: 1180px;
+  margin-top: 50px;
+}
+
+.gallery__title {
+  max-width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Koulen", cursive;
+  font-size: 100px;
+  letter-spacing: 5px;
+  border-bottom: #0883ff 5px double;
+  color: #0883ff;
+}
+
+.gallery__roos {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.gallery__roos-image {
+  max-width: 130px;
+  width: 100%;
+  border-radius: 50%;
+  border: 5px solid #0882ff;
+}
+
+.gallery__roos-name {
+  margin: 0;
+  text-align: center;
+  font-family: "Ubunto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #0882ff;
+}
