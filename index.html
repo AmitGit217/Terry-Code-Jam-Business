@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./pages/index.css" />
     <title>Document</title>
   </head>
   <body class="page">
@@ -11,9 +12,26 @@
     <main class="main">
       <section class="mission"></section>
       <section class="gallery"></section>
-      <section class="volunteer"></section>
+      <section class="volunteer">
+        <div class="volunteer__res">
+          <h2 class="volunteer__title"></h2>
+          <ol class="volunteer__list">
+            <li class="volunteer__list-item"></li>
+            <li class="volunteer__list-item"></li>
+            <li class="volunteer__list-item"></li>
+            <li class="volunteer__list-item"></li>
+          </ol>
+        </div>
+        <div class="volunteer__giffs">
+          <video width="320" height="240" autoplay loop muted>
+            <source src="./images/video1.MOV" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </section>
       <section class="donate"></section>
     </main>
     <footer class="footer"></footer>
+    <script src="./scripts/index.js" type="module"></script>
   </body>
 </html>
