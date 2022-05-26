@@ -1,6 +1,9 @@
 .volunteer {
-  max-width: 1280px;
+  max-width: 1000px;
   margin: 25px auto;
   display: flex;
-  justify-content: space-around;
+}
+.volunteer__list {
+  padding-left: 15px;
+  max-width: 50%;
 }
