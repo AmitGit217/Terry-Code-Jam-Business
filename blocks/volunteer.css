@@ -24,7 +24,6 @@
   font-size: 20px;
 }
 .volunteer__giffs {
-  width: 60%;
   align-self: center;
 }
 .volunteer__gif {
@@ -36,4 +35,21 @@
 
 .volunteer__gif:hover {
   box-shadow: 0 0 45px #0883ff;
+}
+@media screen and (max-width: 768px) {
+  .volunteer__list {
+    font-size: 16px;
+    max-width: 70%;
+  }
+  .volunteer__giffs {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .volunteer {
+    flex-direction: column;
+  }
+  .volunteer__title {
+    font-size: 35px;
+  }
 }
