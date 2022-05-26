@@ -1,0 +1,46 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.form__heading {
+  margin: 0;
+  padding: 20px 0;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.form__input {
+  box-sizing: border-box;
+  padding: 5px;
+  font-size: 14px;
+  font-family: inherit;
+  line-height: 1.2;
+}
+
+.form__input:focus {
+  outline: none;
+  border: 2px solid #0882ff;
+  box-shadow: 0 2px 15px #0882ff;
+}
+
+.form__input_message {
+  resize: vertical;
+  min-height: 80px;
+}
+
+.form__button {
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: 500;
+  color: #fff;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #0882ff;
+  transition: background-color 0.4s;
+}
+
+.form__button:hover {
+  background-color: #0883ff9a;
+}

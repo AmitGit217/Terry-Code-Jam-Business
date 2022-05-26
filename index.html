@@ -172,7 +172,77 @@
         />
       </section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer" id="footer">
+      <div class="footer__content">
+        <form class="footer__form form">
+          <h3 class="form__heading">Let's keep in touch</h3>
+          <input
+            type="text"
+            name="name"
+            id="name"
+            class="form__input"
+            placeholder="Name"
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form__input"
+            placeholder="Email adress"
+            required
+          />
+          <textarea
+            name="message"
+            id="message"
+            placeholder="Write your message here..."
+            class="form__input form__input_message"
+            required
+          ></textarea>
+          <button class="form__button">Submit</button>
+        </form>
+        <div class="footer__bottom-container">
+          <div class="footer__social-media social-media">
+            <a
+              href="https://twitter.com/YPracticum"
+              target="_blank"
+              class="social-media__link"
+              ><img
+                src="./images/twitter-icon-black-white.svg"
+                alt="twitter icon"
+                class="social-media__icon"
+            /></a>
+            <a
+              href="https://www.linkedin.com/school/practicum-by-yandex/"
+              target="_blank"
+              class="social-media__link"
+              ><img
+                src="./images/linkedin-icon-black-white.svg"
+                alt="linkedin icon"
+                class="social-media__icon"
+            /></a>
+            <a
+              href="https://github.com/Yandex-Practicum"
+              target="_blank"
+              class="social-media__link"
+              ><img
+                src="./images/github-icon-black-white.svg"
+                alt="github icon"
+                class="social-media__icon"
+            /></a>
+          </div>
+          <p class="footer__copyright">
+            &copy;2022 Practicum Spring Code Jam - Team Kangaroo: Tamar Rubin,
+            Ozan Sevkin, Amit Bar-Gil
+          </p>
+        </div>
+        <img
+          src="./images/Terry-office.png"
+          alt="Terry working on his laptop"
+          class="footer__image"
+        />
+      </div>
+    </footer>
     <script src="./scripts/index.js" type="module"></script>
   </body>
 </html>

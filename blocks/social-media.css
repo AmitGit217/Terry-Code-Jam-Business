@@ -1,0 +1,25 @@
+.social-media {
+  display: flex;
+  justify-content: center;
+  column-gap: 40%;
+}
+
+.social-media__link {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-media__link:hover .social-media__icon {
+  background-color: #0882ff;
+  border-color: #0882ff;
+}
+
+.social-media__icon {
+  object-fit: cover;
+  width: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  border: 2.5px solid #fff;
+}
