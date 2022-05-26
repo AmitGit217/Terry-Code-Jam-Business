@@ -1,0 +1,55 @@
+.volunteer {
+  max-width: 1000px;
+  margin: 25px auto;
+  display: flex;
+  background-color: #0000008f;
+  color: #ffffff;
+  padding: 5%;
+  border-radius: 10px;
+  border: 5px dotted #0883ff;
+}
+.volunteer__title {
+  font-family: "Koulen", cursive;
+  font-size: 50px;
+  border-bottom: 2px solid #0883ff;
+  max-width: fit-content;
+}
+.volunteer__list {
+  padding-left: 15px;
+  max-width: 75%;
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  font-size: 20px;
+}
+.volunteer__giffs {
+  align-self: center;
+}
+.volunteer__gif {
+  border: 5px solid #0883ff;
+  width: 100%;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.volunteer__gif:hover {
+  box-shadow: 0 0 45px #0883ff;
+}
+@media screen and (max-width: 768px) {
+  .volunteer__list {
+    font-size: 16px;
+    max-width: 70%;
+  }
+  .volunteer__giffs {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 425px) {
+  .volunteer {
+    flex-direction: column;
+  }
+  .volunteer__title {
+    font-size: 35px;
+  }
+}
